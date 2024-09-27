@@ -1,15 +1,18 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Navbar from "./components/layout/Navbar";
+import Hero from "./components/sections/Hero";
+import AddedChechlns from "./components/sections/AddedChechlns";
 
 
 
 export default function Home() {
   return (
    <div>
-    <Navbar/>
+    {/* <Navbar/> */}
+    {/* Hero section */}
     <Hero/>
-    
-   </div>
+    {/* Added Checkln */}
+    <AddedChechlns/>
+    </div>
   );
 }
